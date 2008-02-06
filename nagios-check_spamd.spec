@@ -1,7 +1,10 @@
+%define _enable_debug_packages	%{nil}
+%define debug_package		%{nil}
+
 Summary:	Spamd monitoring script for use with Nagios, etc.
 Name:		nagios-check_spamd
 Version:	0.01
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	Apache License
 Group:		Networking/Other
 URL:		http://www.apache.org/
@@ -11,7 +14,6 @@ Requires:	nagios
 Requires:	perl(Time::HiRes)
 Requires:	perl(Mail::SpamAssassin::Client)
 Requires:	perl(Mail::SpamAssassin::Timeout)
-BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
