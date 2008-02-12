@@ -1,7 +1,7 @@
 %define _enable_debug_packages	%{nil}
 %define debug_package		%{nil}
 
-Summary:	Spamd monitoring script for use with Nagios, etc.
+Summary:	Spamd monitoring script for use with Nagios
 Name:		nagios-check_spamd
 Version:	0.01
 Release:	%mkrel 2
