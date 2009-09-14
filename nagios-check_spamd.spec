@@ -4,7 +4,7 @@
 Summary:	Spamd monitoring script for use with Nagios
 Name:		nagios-check_spamd
 Version:	0.01
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	Apache License
 Group:		Networking/Other
 URL:		http://www.apache.org/
