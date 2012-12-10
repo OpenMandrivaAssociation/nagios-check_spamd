@@ -60,3 +60,36 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_spamd.cfg
 %{_datadir}/nagios/plugins/check_spamd
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 0.01-6mdv2011.0
++ Revision: 620465
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.01-5mdv2010.0
++ Revision: 440228
+- rebuild
+
+* Mon Dec 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.01-4mdv2009.1
++ Revision: 314657
+- now a noarch package
+- use a herein document for configuration
+- reply on filetrigger for reloading nagios
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0.01-4mdv2009.0
++ Revision: 253534
+- rebuild
+- fix summary-ended-with-dot
+
+* Wed Feb 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.01-2mdv2008.1
++ Revision: 163162
+- whoops!, it can't be a noarch package :-)
+
+* Wed Feb 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.01-1mdv2008.1
++ Revision: 163156
+- import nagios-check_spamd
+
+
+* Wed Feb 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.01-1mdv2008.1
+- initial Mandriva package
