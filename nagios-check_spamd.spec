@@ -7,7 +7,7 @@ Version:	0.01
 Release:	7
 License:	Apache License
 Group:		Networking/Other
-URL:		http://www.apache.org/
+URL:		https://www.apache.org/
 Source0:	http://svn.apache.org/repos/asf/spamassassin/trunk/contrib/check_spamd
 Requires:	nagios-plugins
 Requires:	perl(Time::HiRes)
